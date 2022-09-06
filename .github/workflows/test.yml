@@ -10,3 +10,4 @@ jobs:
       - run: echo ${{ github.event.ref }} 
       - run: echo ${{ github.event.sha }} 
       - run: echo ${{ github.event }} 
+      - run: echo ${{ github.event }} 
