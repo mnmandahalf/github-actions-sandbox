@@ -14,3 +14,4 @@ jobs:
       - run: echo ${{ github.event }} 
       - run: echo ${{ github.event }} 
       - run: env | grep GITHUB_ | sort
+      - run: echo hoge
