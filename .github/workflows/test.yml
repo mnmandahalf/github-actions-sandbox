@@ -11,7 +11,5 @@ jobs:
       - run: echo ${{ github.event.ref }} 
       - run: echo ${{ github.event.ref_type }} 
       - run: echo ${{ github.event.sha }} 
-      - run: echo ${{ github.event }} 
-      - run: echo ${{ github.event }} 
       - run: env | grep GITHUB_ | sort
-      - run: echo hoge
+      - run: echo ${GITHUB_SHA} 
