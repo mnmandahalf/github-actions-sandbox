@@ -1,0 +1,8 @@
+name: "Test Workflow"
+on:
+  push:
+    tags:
+jobs:
+  test:
+      - run: echo ${{ github.event.ref }} 
+      - run: echo ${{ github.event.sha }} 
