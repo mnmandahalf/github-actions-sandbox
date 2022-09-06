@@ -13,4 +13,4 @@ jobs:
       - run: echo ${{ github.event.sha }} 
       - run: env | grep GITHUB_ | sort
       - run: echo ${GITHUB_SHA} 
-      - run: echo test
+      - run: echo ${{ github.sha }} 
